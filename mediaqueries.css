@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px) {
+    .container{
+        display: none;
+    }
+    .search-bar{
+        width: 90%;
+        margin-top: 10px;
+    }
+    .sel{
+        font-size: 0.9rem;
+        width: 85%;
+    }
+    header img{
+        display: block;
+    }
+    .lng-section{
+        display: block;
+    }
+    a{
+        text-decoration: none;
+    }
+}

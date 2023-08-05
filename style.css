@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header img{
+    display: none;
+    width: 50px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.header-section{
+    display: flex;
+    justify-content: center;
+}
+header{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+h1::first-letter {
+    font-size: 3rem;
+}
+
+h1{
+    font-weight: 300;
+}
+p{
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.middle-section{
+    display: flex;
+    padding-top: 70px;
+    position: relative;
+    height: 50%;
+}
+.lng-section{
+    display: none;
+}
+.mid-section{
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.lng{
+    text-decoration: none;
+    text-align: center;
+    width: 30%;
+}
+.lang{
+    position: absolute;
+    text-align: center;
+}
+.lang a {
+    display: inline-block;
+    font-weight: 700;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+.lang1{
+    top: 15px;
+    left: -100px;
+}
+.lang2{
+    top: 15px;
+    right: -120px;
+}
+.lang3{
+    top: 70px;
+    left: -150px;
+}
+.lang4{
+    top: 70px;
+    right: -150px;
+}
+.lang5{
+    top: 130px;
+    left: -160px;
+}
+.lang6{
+    top: 130px;
+    right: -160px;
+}
+.lang7{
+    top: 190px;
+    left: -140px;
+}
+.lang8{
+    top: 190px;
+    right: -140px;
+}
+.lang9{
+    top: 250px;
+    left: -100px;
+}
+.lang10{
+    top: 250px;
+    right: -100px;
+}
+.lang:hover{
+    background-color: rgb(228, 224, 224);
+    transition-duration: 0.2s;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.bar{
+    display: flex;
+    justify-content: center;
+}
+.search-bar{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #3366cc;
+    width: 40%;
+    border-radius: 4px;
+    padding-left: 5px;
+}
+.En{
+    border: 0px;
+    margin-right: 10px;
+}
+input{
+    background: transparent;
+    outline: 0px;
+    border: 0px;
+    width: 90%;
+}
+.glass{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #3366CC;
+    border-radius: 0px 2px 2px 0px;
+}
+.select-section{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.sel{
+    padding: 10px;
+    width: 25%;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #3366cc;
+    height: 40px;
+}
